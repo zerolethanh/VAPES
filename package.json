@@ -1,0 +1,22 @@
+{
+  "name": "VAPES",
+  "version": "1.0.0",
+  "description": "VM Auto-deploy with PM2, Express, Slack-web-hook, Shelljs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "pm2-start": "pm2 start index.js"
+  },
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "express": "^4.17.1",
+    "pm2": "^4.5.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "keywords": [],
+  "author": "thanh_classfunc",
+  "license": "ISC"
+}

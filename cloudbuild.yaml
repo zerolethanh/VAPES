@@ -1,0 +1,6 @@
+steps:
+  - name: 'curlimages/curl:latest'
+    args:
+      - -X
+      - POST
+      - http://your-api-url:port/self-restart
